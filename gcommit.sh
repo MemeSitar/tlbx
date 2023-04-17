@@ -16,6 +16,8 @@ else
 fi &&
 
 SUMMARY=$(gum input --placeholder "Summary of this change" --char-limit=100) &&
+gum style "$SUMMARY" --margin "1 1" --bold &&
 DESCRIPTION=$(gum write --prompt="> " --header "Description:" --placeholder="(Ctrl+D to finish)") &&
+gum style "$DESCRIPTION" --margin "1 1" --italic &&
 
 gum confirm "Commit?" && git commit -m "$SUMMARY" -m "$DESCRIPTION"
