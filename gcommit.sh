@@ -5,7 +5,7 @@ ADDED_OR_MODIFIED=$(git status -s | grep -F -e "A  " -e "M  " | cut -c4-)
 if [[ ! $ADDED_OR_MODIFIED ]]
 then
     gum style --foreground 9 "Please add files to this commit."
-    ./gadd.sh
+    gadd.sh
 else
     gum style "The following files are added: " --foreground 10 &&
     gum style "$ADDED_OR_MODIFIED" --margin="0 2" &&
@@ -14,7 +14,7 @@ else
     then
         gum confirm "Do you want to add more files to this commit?"
         if [ $? -eq 0 ]; then
-            ./gadd.sh
+            gadd.sh
         fi
     fi
 fi &&
