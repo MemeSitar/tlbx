@@ -1,0 +1,14 @@
+terminal
+steam
+discord
+f.lux
+thunderbird
+spotify
+nvidia drivers
+wireshark
+vscode
+adobe acrobat
+lenovo vantage (?)
+autohotkey
+sublime text 3
+git
