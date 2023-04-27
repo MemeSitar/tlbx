@@ -1,0 +1,18 @@
+terminal
+firefox
+valve.steam
+discord
+flux.flux
+thunderbird
+spotify
+wireshark
+wireguard
+vscode
+acrobat
+commercial vantage
+autohotkey
+sublime text 3
+git.git
+authy
+rarlab.winrar
+videolan.vlc

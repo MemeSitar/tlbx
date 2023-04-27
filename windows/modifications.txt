@@ -1,4 +1,7 @@
 bluetooth absolute volume
 telnet crlf
 ssh keys
-
+ssh-agent
+powershell enable scripts
+move firefox appdata
+move thunderbird appdata
