@@ -1,0 +1,6 @@
+htop
+sipcalc
+neofetch
+git
+curl
+wget
