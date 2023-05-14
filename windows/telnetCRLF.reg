@@ -1,0 +1,4 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Telnet]
+"DebugFlags"=dword:80000000
