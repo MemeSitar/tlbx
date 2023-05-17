@@ -3,3 +3,6 @@ main
 extras
 # packages:
 autohotkey
+nano
+vim
+winget

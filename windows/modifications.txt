@@ -1,7 +1,8 @@
 bluetooth absolute volume
-telnet crlf
+telnet crlf			// telnetCRLF.reg
 ssh keys
 ssh-agent
 powershell enable scripts
 move firefox appdata
 move thunderbird appdata
+allow ICMP (Ping)
